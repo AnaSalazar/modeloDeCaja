@@ -70,3 +70,75 @@ a:hover {
 .text-uppercase {
   text-transform: uppercase;
 }
+
+/* MIS CLASES y ESTILOS*/
+
+.link {
+  font-weight: 700; /*texto: bold*/
+  padding: 21px; /*espacio entre los textos*/
+  display: inline-block; /*cajas de bloque y en linea de forma simultanea*/
+}
+
+.logo {
+  float: right; /*logo posicionado a la derecha*/
+}
+
+header {
+  position: fixed; /*menú fijo*/
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu {
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+#home {
+  background-image: url(../img/bg-home.jpg);/*imagen de portada*/
+  background-position: center;/*imagen centrada*/
+  background-repeat: no-repeat;/*para que no repita la imagen de fondo*/
+  background-size: cover;/*cubre todo el contenedor*/
+  height: 554px;/*Altura del home*/
+  text-align: center;/*alineacion al centro*/
+  margin-top: 80px;/*margen de la parte de arriba*/
+}
+
+#home .container {
+  color: white; /*color de los textos*/
+  padding: 70px;/*relleno por los 4 lados*/
+}
+
+.text-home {
+  font-size: 53px;/*tamaño de la tipografia*/
+}
+
+.btn-home {
+  background: #2ECC71;/*color del fondo*/
+  color: #fff;/*color del texto*/
+  padding: 11px 20px;/*relleno en el boton de arriba-abajo y derecha-izquierda*/
+  border-radius: 1px; /*redondear el borde*/
+  font-weight: 500;
+  text-transform: uppercase;/*convertir el texto a mayusculas*/
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px; /*tamaño de la letra*/
+}
+
+#services {
+  background-color: #F17C72; /*Color para el fondo*/
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+.box-services {
+  display: inline-block;
+  width: 30%;/*cajas con ancho de 30%*/
+  margin-top: 63%;/*margen superior*/
+}
+
+.text-services {
+  font-size: 35px;
+  letter-spacing: 2px;/*espacio entre cada letras*/
+}
