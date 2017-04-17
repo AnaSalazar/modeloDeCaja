@@ -135,10 +135,30 @@ header {
 .box-services {
   display: inline-block;
   width: 30%;/*cajas con ancho de 30%*/
-  margin-top: 63%;/*margen superior*/
+  margin-top: 10%;/*margen superior*/
 }
 
 .text-services {
   font-size: 35px;
   letter-spacing: 2px;/*espacio entre cada letras*/
+}
+
+#work {
+  text-align: center;
+  padding: 50px 7px;
+}
+
+.work-img{
+  margin-top: 5%;
+}
+
+.text-work {
+  font-size: 35px;
+  letter-spacing: 2px;/*espacio entre cada letras*/
+}
+
+.box-work {
+  display: inline-block;
+  width: 30%;/*cajas con ancho de 30%*/
+  margin-top: 5%;/*margen superior*/
 }
